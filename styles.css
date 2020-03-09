@@ -1,0 +1,51 @@
+/* -------------------TOP LEVEL CLASSES ------------------- */
+
+body {
+    text-align: center;
+    font-family: 'Luckiest Guy', 'cursive';
+    background-color: grey;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+
+/* -------------------TOP SECTION ------------------- */
+#topSection {
+    padding-top: 5%;
+}
+
+.main-heading {
+    margin-bottom: 60px;
+}
+
+.refresh-btn {
+    padding: 2% 10% 2%;
+}
+
+.refresh-btn:hover {
+    background-color: lightyellow;
+    color:black;
+    border-style: none;
+}
+
+
+
+/* -------------------MID SECTION ------------------- */
+#midSection {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.player1-dice-svg {
+    width: 30%;
+}
+
+.player2-dice-svg {
+    width: 30%;
+}

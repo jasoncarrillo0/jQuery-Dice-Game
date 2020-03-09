@@ -1,0 +1,46 @@
+function displayWinnerDecorations () {
+    celebration animation around player1 col
+}
+
+function onClick (btn-refresh) {
+    player1roll = math.random (1-6)
+    player2roll = math.random (1-6)
+
+    player1 switch (diceRoll):
+        case 1:
+            document.player1imgDice = svg-1
+        case 2:
+            document.player1imgDice = svg-2
+        case 3:
+            document.player1imgDice = svg-3
+        case 4:
+            document.player1imgDice = svg-4
+        case 5:
+            document.player1imgDice = svg-5
+        case 6:
+            document.player1imgDice = svg-6
+    
+    player2 switch (diceRoll):
+        case 1:
+            document.player1imgDice = svg-1
+        case 2:
+            document.player1imgDice = svg-2
+        case 3:
+            document.player1imgDice = svg-3
+        case 4:
+            document.player1imgDice = svg-4
+        case 5:
+            document.player1imgDice = svg-5
+        case 6:
+            document.player1imgDice = svg-6
+
+
+    if player1roll > player2roll 
+        .main-heading = "player 1 is the winner!"
+    else
+        .main-heading = "player 2 winner!"
+
+    displayWinnerDecorations();
+}
+
+
